@@ -5,15 +5,15 @@ const Square = ({ value, onClick}) => {
     if(value==='HUMAN')
       return (
         <div style={{
-          fontSize:'80px',
-          color:'green'
+          fontSize:'100px',
+          color:'red'
         }}>X</div>
       )
     if(value==='COMPUTER')
       return (
         <div style={{
-          fontSize:'80px',
-          color:'orange'
+          fontSize:'100px',
+          color:'green'
         }}>O</div>
       )
   }
