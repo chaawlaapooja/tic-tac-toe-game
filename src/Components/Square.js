@@ -6,7 +6,7 @@ const Square = ({ value, onClick}) => {
       return (
         <div style={{
           fontSize:'80px',
-          color:'green'
+          color:'red'
         }}>X</div>
       )
     if(value==='COMPUTER')
